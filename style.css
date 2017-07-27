@@ -1,0 +1,62 @@
+* {
+  text-align: center;
+  font-family: monospace;
+}
+
+input {
+  border: none;
+  border-bottom: 4px solid red;
+  font-size: 25px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: turquoise;
+  margin: 20px;
+}
+
+u {
+  color: rgb(255, 87, 34);
+}
+
+.instructions {
+  color: dimgray;
+  font-size: 21px;
+  background-color: aquamarine;
+  padding: 8px 20px;
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 7px;
+  display: inherit;
+}
+
+.recipient {
+  color: lightseagreen;
+  background-color: lightgray;
+  width: 50%;
+  margin-left: 25%;
+  font-size: 30px;
+}
+
+.getBtn {
+  height: 30px;
+  width: 60px;
+  border-radius: 7px;
+  background-color: white;
+  border-color: darkorange;
+  color: darkgoldenrod;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.getBtn:hover {
+  color: white;
+  background-color: darksalmon;
+  border-color: darkgoldenrod;
+}

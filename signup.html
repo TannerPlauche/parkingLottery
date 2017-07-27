@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Parking Passes Signup</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <nav>
+    <a href="./index.html">Home</a>
+    <a href="./signup.html">Signup</a>
+    <!-- <a href="./getrandom.html">Get</a> -->
+  </nav>
+  <h1>Signup!</h1>
+  <br>
+  <div>
+    <label for="nameInput">Name:</label>
+    <input type="text" id="nameInput" onkeyup="addStudent()" onfocus="toggleDisplayInstructions()" placeholder="Put your real name">
+  </div>
+  <p class="instructions" style="visibility: hidden;">
+    Please signup only once using your real name.
+  </p>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+
+</html>
